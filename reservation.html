@@ -1,0 +1,103 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Khoai Restaurant & Bar</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <a href="index.html" class="logo"><img src="img/logo.png"></a>
+        <!--by clicking logo, the site will refresh back to the main index page-->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <!--by clicking home, the site will jump the the header of a current particular page-->
+            <a href="menu.html">Menu</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="reservation.html"class="active">Reservation</a> 
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+    
+        </div>
+    <!-- Link to script.js file -->
+    <script src="script.js"></script>
+    </header>
+
+    <!--Contact section-->
+    <div class="contact" id="contact">
+        <div class="image">
+
+        </div>
+
+        <div class="form">
+            <h1 class="heading">book a table</h1>
+            <center><h3 class="sub-heading"> ~ check out our place ~</h3></center>
+
+            <form>
+                <div class="form-holder">
+                    <div>
+                        <select>
+                            <option>1 people</option>
+                            <option>2 people</option>
+                            <option>3 people</option>
+                            <option>4 people</option>
+                        </select>
+
+                        <input type="text" name="" placeholder="Time">
+                        <input type="text" name="" placeholder="Phone">
+                    </div>
+
+                    <div>
+                        <input type="text" name="" placeholder="Date">
+                        <input type="text" name="" placeholder="Name">
+                        <input type="text" name="" placeholder="email">
+                    </div>
+                </div>
+                <center><a href="#" class="btn">Book Now</a></center>
+            </form>
+        </div>
+    </div>
+
+    <!--footer section-->
+    <section class="footer">
+        <img src="img/logo.png" class="logo">
+
+        <div class="container">
+            <div>
+                <h3> ABOUT US</h3>
+                <p> Khoai Specialize In Street Food-Inspired Dishes Created By Ur Award-Winning Chef Khoai Franklin. Chef Khoai's Creative Take On Vietnamese Cuisine Reflects His Vision Of A Vietnam That Remains Deeply Respectful Of History And Traditions Yet Equally Progressive And International In Outlook. Khoai Restaurant & Bar Located In Street, Toronto.
+                </p>
+            </div>
+
+            <div>
+                <h3> GET PROMOTION NEWS & FOLLOW US</h3>
+                <input type ="email" name="" placeholder="enter your email">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>CONTACT US</h3>
+                <span> Khoai Restaurant & Bar Ltd. Co </span>
+                <span>(+1) 437 8899 8989</span>
+                <span>Hey@KhoaiBar.ca</span>
+                <span>KhoaiBar.ca</span>
+            </div>
+        </div>
+        <p>Khoai Restaurant & Bar &copy;Copyright 2023</p>
+    </section>
+</body>
+
+</html>
